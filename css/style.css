@@ -1,5 +1,112 @@
-h1 {font-family: 'Yellowtail', cursive;}
+#header-title {
+  display: flex;
+}
 
+#logo {
+  margin-right: 5px;
+}
+
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+  font-weight: bold;
+}
+  
 h2 {
   font-family: 'Geo', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* insert line rule */
+
+h3 {
+  font-size: 3em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* fix font family */
+  font-weight: bold;
+  position: relative;
+}
+
+h4 {
+  color: darkgray;
+}
+
+#print {
+  text-align: right;
+  position: absolute;
+  width: 100%;
+  margin-top: -16px;
+}
+
+p {
+  color: grey;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#list1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#list2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: flex-end;
+  width: 50%;
+  margin-top: -125px;
+}
+
+input {
+  position: relative;
+}
+
+label {
+  font-family: 'Lateef', cursive;
+  font-size: 1.5em;
+  /* position: absolute; */
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer section {
+  display: flex;
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+footer p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+footer section article {
+  margin-left: 15px;
+}
+
+button {
+  background-color: lightsalmon;
+  /* width: fit-content; */
+  padding: 0px 10px;
+  position: absolute;
+  margin-top: 30px;
+  float: clear;
+}
+
+footer img {
+  clear: left;
 }
