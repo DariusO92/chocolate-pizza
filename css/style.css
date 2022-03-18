@@ -53,19 +53,23 @@ p {
   margin-top: 20px;
 }
 
-#list1 {
+fieldset {
+  background-image: URL('/img/list-bg.png');
+  width: 80%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  flex-direction: column;
-  position: relative;
+}
+
+#list1 {
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
 #list2 {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  align-items: flex-end;
-  width: 50%;
-  margin-top: -125px;
+  margin-left: 75px;
+  margin-top: 30px;
 }
 
 input {
@@ -82,7 +86,7 @@ footer {
   margin-top: 20px;
 }
 
-footer section {
+#vanessa {
   display: flex;
   position: relative;
   width: 50%;
@@ -99,14 +103,21 @@ footer section article {
 }
 
 button {
-  background-color: lightsalmon;
+  background-color: rgb(188, 112, 88);
   /* width: fit-content; */
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
   position: absolute;
   margin-top: 30px;
-  float: clear;
+  padding: 5px 20px;
+  color: white;
+  border-color: white;
 }
 
-footer img {
-  clear: left;
+#copywright {
+  margin-top: 100px;
+}
+
+#copywright img {
+  margin-right: auto;
+  margin-left: auto;
 }
